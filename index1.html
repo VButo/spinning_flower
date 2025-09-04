@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A beautiful spinning purple lily flower animation">
+    <title>Spinning Purple Lily</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="page-container">
+        <main class="main-content">
+            <div class="flower-container">
+                <div class="glow-ring"></div>
+                <img 
+                    src="lily.png" 
+                    alt="Beautiful purple lily flower"
+                    class="spinning-flower"
+                    id="flowerImage"
+                />
+            </div>
+
+            <div class="controls">
+                <button class="control-btn" id="pausePlayBtn" aria-label="Pause or resume animation">
+                    <span class="btn-icon" id="btnIcon">⏸</span>
+                    <span class="btn-text" id="btnText">Pause</span>
+                </button>
+            </div>
+        </main>
+
+        <div class="corner-decoration top-left"></div>
+        <div class="corner-decoration top-right"></div>
+        <div class="corner-decoration bottom-left"></div>
+        <div class="corner-decoration bottom-right"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
